@@ -14,6 +14,6 @@ git clone https://github.com/ThomasKasene/example-parent-message-source.git
 
 This project contains the following:
 
-* `MessageSourceExtensionConfig`, which sets up a `BeanFactoryPostProcessor` bean that alters the `MessageSource` bean
+* `MessageSourceExtensionConfig`, which sets up a `BeanPostProcessor` bean that alters the `MessageSource` bean
 * `MessageSourceCustomExtenderTest`, which defines a number of unit tests
 * A number of *.properties-files under test resources to assist with the unit testing
